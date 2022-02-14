@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --green: #56F89A;
+  --pink: #FF009E;
+  --yellow: #FFE522;
+  --dark-bg: #202020;
+  --white: #FFFFFF;
+}
+
+body {
+  font-family: 'Bitter', serif;
+}
+
+.header {
+  padding: 24px 36px;
+  background: var(--pink);
+  color: var(--white);
+}
+
+.branches {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.branches__image {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px;
+}
+
+.branches__link {
+  text-decoration: none;
+}
+
+.card__name {
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container__example {
+  background: var(--dark-bg);
+  color: var(--white);
+}
+
+.container__students {
+  background: var(--yellow);
+  color: var(--dark-bg);
+}
+
+.example,
+.students {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 40px;
+}
+
+.card {
+  width: 240px;
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__image {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border: 8px solid var(--green);
+  background: var(--dark-bg);
+  object-fit: contain;
+  object-position: center;
+}
+
+.card__name {
+  padding: 8px 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.footer__logo {
+  width: 200px;
+}
