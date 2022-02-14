@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="shortcut icon"
+      href="//v.fastcdn.co/u/cf943cfe/52655001-0-Laboratoria-RGB-isot.png"
+      type="image/ico"
+    />
+    <title>Git Branching</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="header__title">SAP007 - Git Branching</h1>
+    </header>
+
+    <main>
+      <section class="branches">
+        <img
+          class="branches__image"
+          src="https://i.imgur.com/YG8In8X.png"
+          alt="Git Branching"
+        />
+        <p>
+          Fonte:
+          <a
+            class="branches__link"
+            href="https://twitter.com/jay_gee/status/702638177471873024?cxt=HHwWgIC23ePsosATAAAA"
+            target="_blank"
+            >@jay_gee</a
+          >
+        </p>
+      </section>
+
+      <section class="container container__example">
+        <h2>Equipe</h2>
+        <div class="example">
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Exemplo Mentor</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Exemplo Mentor</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Exemplo Mentor</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Exemplo Mentor</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Exemplo Mentor</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Exemplo Mentor</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Exemplo Mentor</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Exemplo Mentor</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container container__students">
+        <h2>Estudantes</h2>
+        <div class="students">
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Adriana Tiemi Watanabe</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Aline Rosa Cruz</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Amanda Ferreira Gusmão</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Ana Clara Alves Pereira de Freitas</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Anna Isabelle de Oliveira Figueira Ferraz</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Antonia Cintia da Silva</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Beatriz de Sousa Carvalho</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Bruna de Paula</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Camila Aguiar Santiago</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Daiane Oltramari</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Dayane Rodrigues da Silva Maestrello</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Dayanne Maryssol de Andrade Almeida</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Elizenai dos Santos Silva</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Érika Gonçalves Krause Moreno</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Fernanda Leandra de Souza</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Fernanda Schuenck Ribeiro Monteiro</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Flavia Dantas de Almeida</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Franciele Mesquita</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Gabriela Dias Medrado Rogério Nolasco</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Helena Gonçalves Silva</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Isabela Bonander Gregoraci</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Isabela Soares Ferreira da Silva</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Ítala de Cássia da Silva Costa</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Jackeline Da Silva Aguiar</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Jackeline Da Silva Aguiar</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Jaqueline de Oliveira</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Jessika Mirella Braga Luiz</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Julia Benedicto da Cruz</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Karina Mel Arantes Silva</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Karoline Sontak de Melo</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Keila Hadama</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Larissa dos Reis Santos</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Larissa Moreira Carvalho</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Layssa Aragão Braz</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Leticia Antunes Almeida</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Lidianne Romão Barbosa</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Ludmila Magalhães</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Maria Luiza Costa Santana</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Marione Tainara da Silva Pereira</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Marjorie Matias Freitas</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Mayara Louiza Amancio da Silva Lima</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Mônica Peixoto Guimarães</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Natalie Ingrid da Silva Santos</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Nyelle da Silva Barbosa</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Raele Pereira da Silva</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Raynara Cristina Barbosa Pimenta</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Suelen Escorcio Marques Rodrigues</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Taila Cristina Martins Nascimento</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Taize Borges dos Santos</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Tatiane Cristina da Conceição Mendonça</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Thaís Moreira Jesus Bonalume</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Thamara Bortolin</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Vanessa Borges Barbosa</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Viviane de Jesus Soares Pereira</p>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://via.placeholder.com/200"
+              alt="texto alternativo para imagem"
+            />
+            <p class="card__name">Wayra Arendartchuk</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="http://github.com/Laboratoria/SAP007-branches"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          class="footer__logo"
+          src="https://v.fastcdn.co/u/cf943cfe/27418802-0-Laboratoria-Logo-RGB.png"
+          alt="Laboratoria logo"
+        />
+      </a>
+    </footer>
+  </body>
+</html>
