@@ -161,3 +161,5 @@ Fonte: [Vida de Programador](https://vidadeprogramador.com.br/uploads/2017/07/ti
 - [Guia do Commit Amigão](https://github.com/BeeTech-global/bee-stylish/tree/master/commits) 🇧🇷
 
 - [Conventional Commits](https://www.conventionalcommits.org/pt-br/v1.0.0-beta.4/) 🇧🇷
+
+- [![Vídeo explicativo](https://img.youtube.com/vi/EuwkL5Cgt7w/0.jpg)](https://youtu.be/EuwkL5Cgt7w/)
